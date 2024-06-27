@@ -1,0 +1,37 @@
+
+
+// git 
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/P123yu/Architecture-of-spring-boot.git
+git push -u origin main
+
+// spring boot folder structure 
+
+src/main/java
+└── com
+    └── example
+        └── myapp
+            ├── MyAppApplication.java
+            ├── co
+            │   └── CustomComponent.java
+            ├── config
+            │   └── WebSecurityConfig.java
+            ├── controller
+            │   └── UserController.java
+            ├── dto
+            │   └── UserDto.java
+            ├── mapper
+            │   └── UserMapper.java
+            ├── model
+            │   └── UserModel.java
+            ├── repository
+            │   └── UserRepository.java
+            └── service
+                ├── UserService.java
+                └── impl
+                    └── UserServiceImpl.java
+
